@@ -1,0 +1,63 @@
+.App {
+  font-family: Andika;
+  text-align: center;
+}
+.al {
+  display: flex;
+  flex-direction: row;
+}
+h1 {
+  color: Blue;
+  text-align: center;
+}
+blockquote {
+  margin-left: 400px;
+  border: solid black 2px;
+  margin-right: 400px;
+  padding: 15px 15px;
+  border-radius: 20px;
+}
+img {
+  padding: 10px 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.nav {
+  float: right;
+  overflow: hidden;
+  background-color: indigo;
+  top: 0;
+  width: 100%;
+  position: fixed;
+}
+.nav button {
+  float: right;
+  border-radius: 20px;
+  background-color: indigo;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  display: inline block;
+  font-weight: bold;
+  padding: 14px 20px;
+  font-size: 15px;
+  margin: 10px 10px;
+}
+.nav button:hover {
+  background-color: gold;
+  color: black;
+}
+.nav a {
+  float: left;
+  text-align: center;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 10px 10px;
+}
+.nav a:hover {
+  background-color: gold;
+  color: black;
+}
